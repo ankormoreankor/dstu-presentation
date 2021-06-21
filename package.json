@@ -1,24 +1,23 @@
 {
-  "name": "@shower/shower",
-  "description": "Shower HTML presentation engine",
-  "version": "3.1.1",
+  "name": "practice-presentation",
+  "description": "Accenture's practice presentation for DSTU",
+  "version": "0.0.1",
   "author": {
-    "name": "Vadim Makeev",
-    "url": "https://pepelsbey.net/"
+    "name": "Andrey Koreykin"
   },
-  "homepage": "https://github.com/shower/shower",
+  "homepage": "https://github.com/ankormoreankor/dstu-presentation",
   "repository": {
     "type": "git",
-    "url": "git://github.com/shower/shower.git"
+    "url": "git://github.com/ankormoreankor/dstu-presentation.git"
   },
   "bugs": {
-    "url": "https://github.com/shower/shower/issues"
+    "url": "https://github.com/ankormoreankor/dstu-presentation/issues"
   },
   "license": "MIT",
   "keywords": [
-    "shower",
+    "Accentrue",
     "presentation",
-    "template"
+    "DSTU"
   ],
   "files": [
     "pictures/**",
