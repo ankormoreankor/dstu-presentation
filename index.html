@@ -13,17 +13,25 @@
         }
 
         .slide::before {
-            content: url(pictures/accenture-logo.png);
+            content: url(img/accenture-logo.png);
             position: absolute;
             z-index: 10;
             left: 0;
             bottom: -21px;
             height: 113px;
         }
+
+        .slide.no-logo::before {
+            content: '';
+        }
+
+        img {
+            vertical-align: middle;
+        }
     </style>
 </head>
 
-<body class="shower list grid">
+<body class="shower list">
 
     <header class="caption">
         <h1>Всё, что вы хотели знать о фронтенде, но не знали, как спросить</h1>
@@ -53,6 +61,222 @@
         </h2>
     </section>
 
+    <style>
+        .icons-list {
+            margin-top: -79px !important;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .icons-list li {
+            max-width: calc(100%/3);
+            max-height: calc((var(--slide-height) - 250px)/3);
+            text-align: center;
+            vertical-align: middle;
+            padding: 30px 0;
+        }
+
+        .icons-list li::before {
+            content: '' !important;
+        }
+
+        .icons-list img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
+
+    <section class="slide no-logo">
+        <ul class="icons-list">
+            <li><img src="img/icons/html.png" alt=""></li>
+            <li><img src="img/icons/css.png" alt=""></li>
+            <li><img src="img/icons/njs.png" alt=""></li>
+            <li><img src="img/icons/git.png" alt=""></li>
+            <li><img src="img/icons/gh.png" alt=""></li>
+            <li><img src="img/icons/react.png" alt=""></li>
+            <li><img src="img/icons/ts.png" alt=""></li>
+            <li><img src="img/icons/wa.png" alt=""></li>
+            <li><img src="img/icons/ch.png" alt=""></li>
+        </ul>
+        <div class="spotlight" style="
+            --spotlight-radius: 20px;
+            --spotlight-opacity: 1;
+            --spotlight-size: 156px;
+            --spotlight-top: -205px;
+            --spotlight-left: -280px;
+        "></div>
+    </section>
+
+    <section class="slide">
+        <ul class="icons-list">
+            <li><img src="img/icons/html.png" alt=""></li>
+            <li><img src="img/icons/css.png" alt=""></li>
+            <li><img src="img/icons/njs.png" alt=""></li>
+            <li><img src="img/icons/git.png" alt=""></li>
+            <li><img src="img/icons/gh.png" alt=""></li>
+            <li><img src="img/icons/react.png" alt=""></li>
+            <li><img src="img/icons/ts.png" alt=""></li>
+            <li><img src="img/icons/wa.png" alt=""></li>
+            <li><img src="img/icons/ch.png" alt=""></li>
+        </ul>
+        <div class="spotlight" style="
+            --spotlight-radius: 20px;
+            --spotlight-opacity: 1;
+            --spotlight-size: 156px;
+            --spotlight-top: -205px;
+            --spotlight-left: -10px;
+        "></div>
+        2
+    </section>
+
+    <section class="slide">
+        <ul class="icons-list">
+            <li><img src="img/icons/html.png" alt=""></li>
+            <li><img src="img/icons/css.png" alt=""></li>
+            <li><img src="img/icons/njs.png" alt=""></li>
+            <li><img src="img/icons/git.png" alt=""></li>
+            <li><img src="img/icons/gh.png" alt=""></li>
+            <li><img src="img/icons/react.png" alt=""></li>
+            <li><img src="img/icons/ts.png" alt=""></li>
+            <li><img src="img/icons/wa.png" alt=""></li>
+            <li><img src="img/icons/ch.png" alt=""></li>
+        </ul>
+        <div class="spotlight" style="
+            --spotlight-radius: 20px;
+            --spotlight-opacity: 1;
+            --spotlight-size: 156px;
+            --spotlight-top: -205px;
+            --spotlight-left: 265px;
+        "></div>
+    </section>
+
+    <section class="slide">
+        <ul class="icons-list">
+            <li><img src="img/icons/html.png" alt=""></li>
+            <li><img src="img/icons/css.png" alt=""></li>
+            <li><img src="img/icons/njs.png" alt=""></li>
+            <li><img src="img/icons/git.png" alt=""></li>
+            <li><img src="img/icons/gh.png" alt=""></li>
+            <li><img src="img/icons/react.png" alt=""></li>
+            <li><img src="img/icons/ts.png" alt=""></li>
+            <li><img src="img/icons/wa.png" alt=""></li>
+            <li><img src="img/icons/ch.png" alt=""></li>
+        </ul>
+        <div class="spotlight" style="
+            --spotlight-radius: 20px;
+            --spotlight-opacity: 1;
+            --spotlight-size: 156px;
+            --spotlight-top: -35px;
+            --spotlight-left: -280px;
+        "></div>
+    </section>
+
+    <section class="slide">
+        <ul class="icons-list">
+            <li><img src="img/icons/html.png" alt=""></li>
+            <li><img src="img/icons/css.png" alt=""></li>
+            <li><img src="img/icons/njs.png" alt=""></li>
+            <li><img src="img/icons/git.png" alt=""></li>
+            <li><img src="img/icons/gh.png" alt=""></li>
+            <li><img src="img/icons/react.png" alt=""></li>
+            <li><img src="img/icons/ts.png" alt=""></li>
+            <li><img src="img/icons/wa.png" alt=""></li>
+            <li><img src="img/icons/ch.png" alt=""></li>
+        </ul>
+        <div class="spotlight" style="
+            --spotlight-radius: 20px;
+            --spotlight-opacity: 1;
+            --spotlight-size: 156px;
+            --spotlight-top: -35px;
+            --spotlight-left: -10px;
+        "></div>
+    </section>
+
+    <section class="slide">
+        <ul class="icons-list">
+            <li><img src="img/icons/html.png" alt=""></li>
+            <li><img src="img/icons/css.png" alt=""></li>
+            <li><img src="img/icons/njs.png" alt=""></li>
+            <li><img src="img/icons/git.png" alt=""></li>
+            <li><img src="img/icons/gh.png" alt=""></li>
+            <li><img src="img/icons/react.png" alt=""></li>
+            <li><img src="img/icons/ts.png" alt=""></li>
+            <li><img src="img/icons/wa.png" alt=""></li>
+            <li><img src="img/icons/ch.png" alt=""></li>
+        </ul>
+        <div class="spotlight" style="
+            --spotlight-radius: 20px;
+            --spotlight-opacity: 1;
+            --spotlight-size: 156px;
+            --spotlight-top: -35px;
+            --spotlight-left: 265px;
+        "></div>
+    </section>
+
+    <section class="slide">
+        <ul class="icons-list">
+            <li><img src="img/icons/html.png" alt=""></li>
+            <li><img src="img/icons/css.png" alt=""></li>
+            <li><img src="img/icons/njs.png" alt=""></li>
+            <li><img src="img/icons/git.png" alt=""></li>
+            <li><img src="img/icons/gh.png" alt=""></li>
+            <li><img src="img/icons/react.png" alt=""></li>
+            <li><img src="img/icons/ts.png" alt=""></li>
+            <li><img src="img/icons/wa.png" alt=""></li>
+            <li><img src="img/icons/ch.png" alt=""></li>
+        </ul>
+        <div class="spotlight" style="
+            --spotlight-radius: 20px;
+            --spotlight-opacity: 1;
+            --spotlight-size: 156px;
+            --spotlight-top: 135px;
+            --spotlight-left: -280px;
+        "></div>
+    </section>
+
+    <section class="slide">
+        <ul class="icons-list">
+            <li><img src="img/icons/html.png" alt=""></li>
+            <li><img src="img/icons/css.png" alt=""></li>
+            <li><img src="img/icons/njs.png" alt=""></li>
+            <li><img src="img/icons/git.png" alt=""></li>
+            <li><img src="img/icons/gh.png" alt=""></li>
+            <li><img src="img/icons/react.png" alt=""></li>
+            <li><img src="img/icons/ts.png" alt=""></li>
+            <li><img src="img/icons/wa.png" alt=""></li>
+            <li><img src="img/icons/ch.png" alt=""></li>
+        </ul>
+        <div class="spotlight" style="
+            --spotlight-radius: 20px;
+            --spotlight-opacity: 1;
+            --spotlight-size: 156px;
+            --spotlight-top: 135px;
+            --spotlight-left: -10px;
+        "></div>
+    </section>
+
+    <section class="slide">
+        <ul class="icons-list">
+            <li><img src="img/icons/html.png" alt=""></li>
+            <li><img src="img/icons/css.png" alt=""></li>
+            <li><img src="img/icons/njs.png" alt=""></li>
+            <li><img src="img/icons/git.png" alt=""></li>
+            <li><img src="img/icons/gh.png" alt=""></li>
+            <li><img src="img/icons/react.png" alt=""></li>
+            <li><img src="img/icons/ts.png" alt=""></li>
+            <li><img src="img/icons/wa.png" alt=""></li>
+            <li><img src="img/icons/ch.png" alt=""></li>
+        </ul>
+        <div class="spotlight" style="
+            --spotlight-radius: 20px;
+            --spotlight-opacity: 1;
+            --spotlight-size: 156px;
+            --spotlight-top: 135px;
+            --spotlight-left: 265px;
+        "></div>
+    </section>
+
     <section class="slide">
         <h2 class="shout">
             Из чего состоит Frontend?
@@ -60,46 +284,75 @@
     </section>
 
     <section class="slide">
+        <img class="cover" src="img/html-css-js.jpg" alt="">
+    </section>
+
+    <section class="slide">
+        <h2><a href="https://nodejs.org/en/">Node JS</a></h2>
+        <blockquote>
+            <p style="font-size: 16px;">Node.js is an open-source, cross-platform, back-end JavaScript runtime
+                environment that runs on the V8
+                engine and executes JavaScript code outside a web browser. Node.js lets developers use JavaScript to
+                write command line tools and for server-side scripting—running scripts server-side to produce dynamic
+                web page content before the page is sent to the user's web browser. Consequently, Node.js represents a
+                "JavaScript everywhere" paradigm,[6] unifying web-application development around a single programming
+                language, rather than different languages for server-side and client-side scripts.</p>
+        </blockquote>
+        <img class="place bottom right" height="30%" src="img/icons/njs.png" alt="">
+    </section>
+
+    <section class="slide">
+        <span>Node js</span>
         <ul>
-            <li>
-                <h2>HTML</h2>
-            </li>
-            <li>
-                <h2>CSS</h2>
-            </li>
-            <li>
-                <h2>JavaScript</h2>
-            </li>
+            <li>Пакетный менеджер NPM</li>
+            <li>Локальные утилиты</li>
+            <li>Системы сборки фронтенда</li>
+            <li>Локальный сервер</li>
         </ul>
     </section>
 
     <section class="slide">
-        <h2>
-            Multiline<br>
-            Header
-        </h2>
-        <p>Retro meh brunch aesthetic Cosby sweater Shoreditch. Banksy Tumblr sriracha, flexitarian pug chia master
-            cleanse vinyl wayfarers fanny pack bespoke Helvetica roof party. Messenger bag retro cred Portland next
-            level. Yr stumptown Schlitz Carles deep v small batch. Hella sustainable messenger bag, leggings skateboard
-            literally bicycle rights H₂0 mumblecore banh mi DIY VHS. Semiotics four loko street art asymmetrical.</p>
+        <h2><a href="https://webassembly.org/">WebAssembly</a></h2>
+        <blockquote>
+            <p style="font-size: 16px;">WebAssembly is a new type of code that can be run in modern web browsers — it is
+                a low-level assembly-like language with a compact binary format that runs with near-native performance
+                and provides languages such as C/C++, C# and Rust with a compilation target so that they can run on the
+                web. It is also designed to run alongside JavaScript, allowing both to work together.</p>
+        </blockquote>
+        <p>WASM</p>
+        <img class="place bottom right" height="30%" src="img/icons/wa.png" alt="">
     </section>
 
     <section class="slide">
-        <h2>Inline Elements</h2>
-        <p>Retro meh brunch <a href="">aesthetic</a> Cosby sweater Shoreditch. Banksy Tumblr <strong>sriracha</strong>,
-            flexitarian pug chia master cleanse vinyl <em>wayfarers</em> fanny pack bespoke Helvetica <b>roof</b> party.
-            Messenger bag retro cred <i>Portland</i> next level. Yr stumptown Schlitz Carles deep v small batch. Hella
-            sustainable messenger bag, <mark>leggings</mark> skateboard literally<sup>1</sup> bicycle rights
-            H<sub>2</sub>0 mumblecore banh mi DIY VHS. Semiotics four loko street art asymmetrical. Asymmetrical
-            <code>&lt;paleo&gt;</code> you probably haven’t heard of.
-        </p>
-        <footer class="footer">
-            <p>Flannel bicycle rights locavore selfies skateboard. Authentic fanny pack paleo four loko bespoke. Artisan
-                tattooed chia XOXO ennui, lomo disrupt 8-bit art party Tumblr scenester. Post-ironic fashion axe
-                flexitarian, Tonx narwhal messenger bag Tumblr. Portland gentrify deep v kale chips literally.</p>
-        </footer>
+        <img class="cover" src="img/wasm.png" alt="">
     </section>
 
+    <section class="slide">
+        <span>Где используется?</span>
+        <ul>
+            <li>Игры, игровые движки, движки физики, VR/AR (Godot, Doom 3 и др)</li>
+            <li>Эмуляторы, виртуальные машины — например, DOSBox</li>
+            <li>Графические/3D редакторы — Figma, AutoCAD</li>
+            <li>Веб-клиенты для финансовых торговых площадок — я видел презентации про два таких клиента</li>
+            <li>Кодеки и фильтры аудио/видео — например, ffmpeg</li>
+            <li>Базы данных — например, sqlite</li>
+            <li>...</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <img class="place left" src="img/icons/njs.png" alt="">
+        <p class="place" style="font-size: 90px;">VS</p>
+        <img class="place right" src="img/icons/wa.png" alt="">
+    </section>
+
+    <section class="slide">
+        <img class="place left" src="img/icons/njs.png" alt="">
+        <p class="place" style="font-size: 90px;">VS</p>
+        <img class="place right" src="img/icons/wa.png" alt="">
+    </section>
+
+    <!--
     <section class="slide">
         <h2>Block Quotes</h2>
         <blockquote>
@@ -112,9 +365,9 @@
                     chips literally.</p>
             </blockquote>
             <figcaption>Yours Truly</figcaption>
-        </figure>
+        </figure> -->
     </section>
-
+    <!--
     <section class="slide">
         <h2>Ordered List</h2>
         <ol>
@@ -698,7 +951,7 @@
             </svg>
             Fork me<br>on GitHub
         </a>
-    </footer>
+    </footer> -->
 
     <script src="shower/shower.js"></script>
 
